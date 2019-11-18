@@ -52,6 +52,12 @@ a{
     color:black;
 }
 
+
+img{
+height: 10%;
+}
+
+
 .image{
    
     display: flex;
