@@ -17,7 +17,7 @@ body{
 /*HEADER*/
 header{
     font-family: 'Permanent Marker', cursive;
-    background-image: url(dark-wood-texture-2210x1475.jpg);
+    background: rgb(67, 112, 112);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -96,6 +96,7 @@ a:visited{
 .presentation{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 2%;
 }
 
@@ -103,6 +104,11 @@ a:visited{
 
 p{
     padding: 2%;
+}
+
+.pdroite{
+    background: rgb(236, 234, 234);
+    border-radius: 10%;
 }
 
 /* FORMULAIRE*/
