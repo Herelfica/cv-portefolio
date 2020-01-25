@@ -121,12 +121,14 @@ p{
     display: flex;
     justify-content: space-around;
     background: rgb(2,39,49);
+
     
   
 }
 
 
 .coordonnees{
+    margin : 2%;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -135,7 +137,7 @@ p{
 
 
 form {
-    width : 40% ;
+    width : 25% ;
     display : flex;
     
 }
@@ -209,7 +211,7 @@ input[type="reset"], input[type="submit"]{
     }
 
     li:hover{
-        border-radius: 25px;
+        border-radius: 30px;
         background: linear-gradient(145deg, #d2b36b, #f9d57f);
         box-shadow: 30px 30px 60px #6e5e38, 
                     -30px -30px 60px #ffffb6;
@@ -231,17 +233,10 @@ input[type="reset"], input[type="submit"]{
 
 
 
+/* Parcours */
 
 
-    
-    
-  
-
-
-
-/* Parcours*/
-
-
+/* Portfolio */
 
 /* MEDIA */
 /* IPAD PRO ET IPAD*/
