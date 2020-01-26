@@ -244,6 +244,26 @@ i{
 
 }
 
+/*ANIMATIONS*/
+
+.animation:hover{
+    animation : mouv 2s ease-in 1s initial;
+}
+
+@keyframes mouv {
+    
+    from{
+        margin-left: 100%;
+        width : 100%;
+    }
+
+    to{
+      margin-left : 50%;
+      width: 100%;
+    }
+
+}
+
 
 /* Portfolio */
 
