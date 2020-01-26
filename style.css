@@ -76,7 +76,7 @@ li{
     
     padding : 1%;
     margin : 1%;
-    border-radius: 30px;
+    border-radius: 35px;
     background: linear-gradient(145deg, #02232c, #022a34);
     box-shadow: 30px 30px 60px #011217, 
             -30px -30px 60px #033c4b;
@@ -202,7 +202,7 @@ input[type="reset"], input[type="submit"]{
     color: rgb(236, 234, 234);
 }
 
-/* ANIMATION */
+/* TRANSITION */
 
 @media(hover: hover ){
     
@@ -211,7 +211,7 @@ input[type="reset"], input[type="submit"]{
     }
 
     li:hover{
-        border-radius: 30px;
+        border-radius: 35px;
         background: linear-gradient(145deg, #d2b36b, #f9d57f);
         box-shadow: 30px 30px 60px #6e5e38, 
                     -30px -30px 60px #ffffb6;
@@ -222,7 +222,7 @@ input[type="reset"], input[type="submit"]{
         color : rgb(2,39,49);
     }
     input:hover{
-        border-radius: 25px;
+        border-radius: 30px;
         background: linear-gradient(145deg, #d4d3d3, #fdfafa);
         box-shadow: 30px 30px 60px #6f6e6e, 
                     -30px -30px 60px #ffffff;
@@ -234,6 +234,15 @@ input[type="reset"], input[type="submit"]{
 
 
 /* Parcours */
+
+main{
+    background : rgb(228, 226, 220);
+}
+
+i{
+    color : rgb(233, 199, 119);
+
+}
 
 
 /* Portfolio */
