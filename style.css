@@ -13,8 +13,8 @@ font-family: 'Amiri', serif;
 color : 
 
 color: rgb(87, 9, 212) >>> lien visité
-background: rgb(2, 39,49); bleu 
-color:rgb(233, 119, 119); jaune
+background: "138086"; bleu 
+color:#EEB462; jaune
 */
 
 body{
@@ -22,8 +22,8 @@ body{
 }
 /*HEADER*/
 header{
-    font-family: 'Sriracha', cursive;
-    background: rgb(2, 39, 49);
+    font-family: 'Lexend Giga', sans-serif;
+    background: rgb(228, 226, 220);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,12 +31,21 @@ header{
 }
 
 h1{
-    color:rgb(233, 199, 119);
+   
+  width : 900px;
+
+background: #F8D90F;
+box-shadow: inset 20px 20px 60px #d3b80d, 
+            inset -20px -20px 60px #fffa11;
+    color : black;
     display: flex;
     justify-content: center;
     align-content: center;
     text-transform: uppercase;
+    margin-left : 20%;
+    margin-top: 5%;
     padding: 2%;
+    
 }
 
 .tracking-in-expand {
@@ -69,17 +78,30 @@ h1{
     }
   }
 
+.NameImg{
+  margin-top : 2%;
+  width : 400px;
+  height : 400px;
+  
+  
+  box-shadow:  5px 5px 5px #106d72, 
+             -5px -5px 5px #16939a;
+  
+}
   
 h2{
-    color: rgb(233, 199, 119);
-    font-family: 'Sriracha', cursive;
+
+    padding-top : 2em;
+    color: #F8D90F;
+    font-family: 'Lexend Giga', sans-serif;
     display: flex;
-    justify-content: center;
-    background: rgb(2, 39, 49);
+    justify-content : center;
+    
 }
 
 .image{
-   
+    width : 400px;
+    height : 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,17 +109,24 @@ h2{
 }
 
 .profil{
-    width: 13%;
+    width: 75%;
 }
 
 a{
     text-decoration: none;
-    color : rgb(233, 199, 119); 
+    color : #35BBCA; 
 }
 
 
 
+
 ul{
+  
+margin-left : 25%;
+box-shadow:  2px 2px 10px #000000, 
+             2px 2px 10px #000000;
+    border : 1px #000000 solid;
+    width :  75%;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -108,13 +137,9 @@ li{
     
     padding : 1%;
     margin : 1%;
-    border-radius: 20px;
-    background: linear-gradient(145deg, #02232c, #022a34);
-    box-shadow: 30px 30px 60px #011217, 
-                -30px -30px 60px #033c4b;
+    
     
 }
-
 
 
 
