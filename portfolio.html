@@ -5,38 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>QUINTYN PAULINE</title>
-    <link href="https://fonts.googleapis.com/css?family=Amiri|Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header>
 
-        <h1>cv intégrateur/développeur web</h1>
-            <div class="header">
-                <div>
-                <a class="image" target="blank" href="https://www.linkedin.com/in/pauline-quintyn-199199ba/"><img class="profil"
-                            src="profil.png" alt="profil" width="10%" height="10%"></a>
-                          
+        <h1 class="text-pop-up-top" >CV Intégrateur / Développeur web</h1>
+      
+            
+                <div>                    
+                    <h2><a class=" text-pop-up-top name" target="blank" href="https://www.linkedin.com/in/pauline-quintyn-199199ba/">QUINTYN PAULINE</a></h2>
+                </div>     
                 
-                    </div>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="parcours.html">Parcours</a></li>
-                                <li><a href="portfolio.html">Portefolio</a></li> 
-                                <li><a href="index.html#formulaire">Contact</a></li> 
-                                <li><a target="blank" href="cv 2019.png">Télécharger mon cv</a></li>     
-                                
-                            </ul>
-                        </nav> 
-                </div>             
-                    
+                
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li><a class="linkNavbar" href="index.html">Accueil</a></li>
+                            <li><a class="linkNavbar" href="parcours.html">Parcours</a></li>
+                            <li><a class="linkNavbar" href="portfolio.html">Portfolio</a></li> 
+                            <li><a class="linkNavbar" href="#formulaire">Contact</a></li>      
+                            <li><a class="linkNavbar" target="blank" href="cv 2020.pdf">Télécharger mon cv</a> </li>
+                        </ul>
+                    </nav> 
+                </div>
+            
     </header>
 
-    <main>
+    <main class="categories">
         <h1>PAGE EN CONSTRUCTION</h1>
-    </main>
+        
+        <div class="HTMLCSS">
+            <section>
+                <h2 class="categorie">Site en HTML et CSS </h2>
+            </section>
+        </div>
+        <div class="PHP">
+            <section>
+                <h2 class="categorie">Site avec intégration PHP</h2>
+            </section>
 
+        </div>
+        <div class="PYTHON">
+            <section>
+                <h2 class="categorie">Site sous python</h2>
+            </section>
+
+        </div>
+        <div class="CMS">
+            <section>
+                <h2 class="categorie">Site fait par CMS</h2>
+            </section>
+        </div>
+        <div class="INTEGRATIONJS">
+            <section>
+                <h2 class="categorie">Intégration JAVASCRIPT</h2>
+            </section>
+        </div>
+        
+    
+    </main>
+    
+    <footer>
+
+        <h2>Si vous souhaitez me contacter : </h2>
+        <div class="contact">
+                      
+
+            <div class="coordonnees">
+            
+                    <p>Adresse : 2 Rue Léodile Béra 79000 Niort</p></br>
+                
+                    <p>Tél : 06.22.09.63.59</p></br>
+                    
+                
+                    <p>Email : quintynpauline@gmail.com </p></br>
+                    
+               
+            </div>            
+
+            <form class="form" id="formulaire" action="" method="POST">
+                
+                <div class ="GroupeChamps ">
+                    
+                    <div class="champs">
+                        <label >Nom : </label> 
+                        <input type="text" name="nom" id="nom" required placeholder="Nom"/> <br/>
+                    </div>
+                    <div class="champs">
+                        <label>Prénom : </label><input type="text" name="prenom" id="prenom"  placeholder="Prénom" /> <br/>
+                    </div>
+                    <div class="champs">
+                        <label>Société : </label><input type="text" name="societe" id="societe" placeholder="Société" /> <br/>
+                    </div>
+                    <div class="champs">
+                        <label>Téléphone : </label><input type="tel" name="tel" placeholder="Téléphone" /> <br/>
+                    </div>
+                    <div class="champs">
+                        <label>Email : </label><input type="email" name="email" id="email" placeholder="Email" required/><br/>
+                    </div>
+                </div>
+                <div class="message">             
+                    <textarea name="Votre-message" id="message" cols="50" rows="15" placeholder="Ici votre message..." required ></textarea>
+                    
+                    <div class="bouton" >
+                        <input class="button"  type="reset" value="Reset">
+                        <input class="button" type="submit" value="Envoyer">
+                    </div>
+                </div>
+                
+
+            </form>
+        </div>
+
+        <div class="plan">
+            <h3>Plan du site</h3>
+            <div class=lienFooter>
+                <a  href="index.html">Accueil - </a><a  href="parcours.html">Parcours - </a><a  href="portfolio.html">Portfolio - </a><a href="#formulaire">Contact - </a> <a  target="blank" href="cv 2019.png">Télécharger mon cv</a> 
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 </html>
